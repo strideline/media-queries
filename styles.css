@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/*.responsive-img {
+  max-width: 100%;
+  min-height: 200px;
+  max-height: 400px;
+}*/
+
+nav {
+  text-align: center;
+  height: 60px;
+  background-color: white;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  min-height: 240px;
+  background-color: #e4f1fd;
+}
+
+section {
+  text-align: center;
+  width: 96%;
+  margin: 4% 2% 4% 2%;
+  height: 10%;
+  min-height: 100px;
+  background-color: #e4f1fd;
+}
+
+.container2 {
+  background-color: #e4f1fd;
+  min-height: 340px;
+}
+
+article {
+  text-align: center;
+/*  box-sizing: border box;*/
+  width: 96%;
+  margin: 10px 2% 0 2%;
+  height: 10%;
+  min-height: 100px;
+  background-color: #ffffff;
+}
+
+/*section {
+  width: 29.3%;
+  margin: 4% 2% 4% 2%;
+  float: left;
+  min-height: 200px;
+  background-color: #e4f1fd;
+}*/
+
+/*.column1 {
+  background-color: e4f1fd
+}*/
+
+/*.container1 {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container2 {
+  width: 100%;
+}
+
+.column {
+  width: 50%;
+  min-height: 200px;
+  float: left;
+  margin: 0 auto;
+}
+
+#column1 {
+  background-color: #3399cc;
+}
+
+#column2 {
+  background-color: #92c6dd;
+}
+
+#column3 {
+  background-color: #3399cc;
+}*/
+
+/* Mobiles in Portrait Mode */
+@media only screen and (max-width:414px) {
+}
+
+/* Mobiles in Landscape Mode */
+/*@media only screen and (min-width:321px) {
+  .column {
+    width: 100%;
+    float: none;
+  }
+}*/
+
+/* Tablets */
+@media only screen and (min-width:768px) {
+  header {
+    min-height: 300px;
+  }
+  section {
+    width: 29.3%;
+    margin: 4% 2% 4% 2%;
+    float: left;
+    min-height: 200px;
+  }
+
+  article {
+    width: 29.3%;
+    margin: 4% 2% 4% 2%;
+    float: left;
+    min-height: 200px;
+  }
+  .container2 {
+  background-color: #e4f1fd;
+  min-height: 260px;
+}
+}
+
+/* Desktops and Laptops */
+/*@media only screen and (min-width:1224px) {
+  .column {
+    width: 50%;
+    float: left;
+  }
+
+  .container {
+    width: 960px;
+  }
+}
+*/
+/* XXL Displays */
+/*@media only screen and (min-width:1600px) {
+  .column {
+    width: 50%;
+    float: left;
+  }
+
+  .container {
+    width: 1440px;
+  }
+}*/
